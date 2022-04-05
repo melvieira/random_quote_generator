@@ -19,12 +19,6 @@ let quote = [
 // .then(response => response.json())
 // .then(data => console.log(data));
 
-// function getNewQuote() {
-//     let todayQuote='';
-//     for (let i=0; i <= quote.length; i++) {
-//         return todayQuote = quote[Math.floor(Math.random() * quote.length)]
-//     }
-// };
 
 function getNewQuote() {
     let todayQuote= quote[Math.floor(Math.random() * quote.length)];
